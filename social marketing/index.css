@@ -10,13 +10,14 @@
 header{
     display: flex;
     justify-content: center;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 nav{
     width: 1600px;
     height: 680px;
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 }
 .head h2{
     display: flex;
@@ -114,9 +115,47 @@ section .text1 .p2{
     font-weight: bold;
 }
 .p-text .ptext4{
-margin-bottom: 23px;
-font-family: 'Open Sans', sans-serif;
-font-size: 14px;
-color: #646464;
-line-height: 25px;
+    margin-bottom: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #646464;
+    line-height: 25px;
 }
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title .bottom{
+    width: 1300px;
+}
+.bottom h1{
+    color: white;
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.bottom p{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    line-height: 27px;
+    padding-right: 510px;
+    margin-bottom: 35px;
+}
+.bottom button{
+    width: 270px;
+    height: 70px;
+    border: solid 2px white;
+    background: transparent;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 87px;
+}
+
