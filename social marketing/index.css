@@ -7,32 +7,40 @@
    /* font-family: 'Merriweather', serif; */
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
+header{
+    display: flex;
+    justify-content: center;
+}
 nav{
-    width: 1300px;
+    width: 1600px;
     height: 680px;
     background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .head h2{
+    display: flex;
+    justify-content: center;
     padding-top: 230px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     font-family: 'Raleway', sans-serif;
     font-size: 110px;
     font-weight: 900;
     color: #fff;
 }
-.head::after{
-    content: "";
-    display: block;
-    width: 160px;
+.line{
+    margin: auto;
+    width: 22%;
     height: 3px;
     background: #da491c;
-    margin-left: 550px;
     margin-top: 50px;
 }
 nav .p1{
+    display: flex;
+    justify-content: center;
     font-family: 'Merriweather', serif;
     margin-top: 50px;
-    margin-left: 360px;
+    /* margin-left: 360px; */
     font-size: 16px;
     color: #a8a8a8;
 }
